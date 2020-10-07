@@ -11,7 +11,7 @@ Symfony
 
 ## Installation guide
 
-#### Clone the project fork 
+#### Clone the project 
     $ git clone https://github.com/oriovaldof/question-3.git question-3
     $ cd question-3
        
