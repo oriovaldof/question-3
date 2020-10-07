@@ -17,12 +17,27 @@
         p{
             text-align: center;
             font-size: 25px
+        }      
+         .conteiner{
+            text-align: center;
         }
+        .btn{
+            background: blue;
+            padding: 10px 10px;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 13px;
+            border: 1px solid #ffffff;
+        }
+ 
 
     </style>
 {% endblock %}
 
 {% block body %}
     <h1>Número da Sorte</h1>
-    <p>O seu número é <strong>{{number}}</strong>, imagine um número e aperte a tecla F5, vamos testar sua sorte?</p>
+    <p>O seu número é <strong>{{number}}</strong>, imagine um número e clique no botao abaixo!</p>
+    <div class="conteiner">
+        <a class="btn" href="{{ path('lucky_number') }}">Clique aqui e vamos testar sua sorte?</a>
+    </div>
 {% endblock %}
