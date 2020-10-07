@@ -1,0 +1,28 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+    Número da Sorte
+{% endblock %}
+
+{% block stylesheets %}
+    <style>
+        body{
+            font-family: monospace; 
+        }
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 38px;
+        }
+        p{
+            text-align: center;
+            font-size: 30px
+        }
+
+    </style>
+{% endblock %}
+
+{% block body %}
+    <h1>Número da Sorte</h1>
+    <p>O seu número é <strong>{{number}}</strong>, imagine um número e aperte a tecla F5, vamos testar sua sorte?</p>
+{% endblock %}
